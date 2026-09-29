@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://zenithfocus.app/fr/</loc><xhtml:link rel="alternate" hreflang="fr" href="https://zenithfocus.app/fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://zenithfocus.app/en/"/></url>
+  <url><loc>https://zenithfocus.app/en/</loc><xhtml:link rel="alternate" hreflang="fr" href="https://zenithfocus.app/fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://zenithfocus.app/en/"/></url>
+  <url><loc>https://zenithfocus.app/fr/confidentialite.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://zenithfocus.app/fr/confidentialite.html"/><xhtml:link rel="alternate" hreflang="en" href="https://zenithfocus.app/en/privacy.html"/></url>
+  <url><loc>https://zenithfocus.app/en/privacy.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://zenithfocus.app/fr/confidentialite.html"/><xhtml:link rel="alternate" hreflang="en" href="https://zenithfocus.app/en/privacy.html"/></url>
+</urlset>
