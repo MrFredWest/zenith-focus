@@ -295,3 +295,4 @@ html:not(.js) .story__stage { display: none !important; }
 .review__tr { font-weight: 400; color: var(--on-cream-2); }
 .reviews__note { text-align: center; margin: 2rem auto 0; }
 @media (min-width: 800px) { .reviews__grid { grid-template-columns: 1fr 1fr; gap: 24px; } }
+@media (min-width: 800px) { .review:last-child:nth-child(odd) { grid-column: 1 / -1; width: min(100%, 560px); justify-self: center; } }
