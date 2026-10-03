@@ -296,3 +296,13 @@ html:not(.js) .story__stage { display: none !important; }
 .reviews__note { text-align: center; margin: 2rem auto 0; }
 @media (min-width: 800px) { .reviews__grid { grid-template-columns: 1fr 1fr; gap: 24px; } }
 @media (min-width: 800px) { .review:last-child:nth-child(odd) { grid-column: 1 / -1; width: min(100%, 560px); justify-self: center; } }
+
+/* ---------- réseaux sociaux ---------- */
+.social { display: flex; gap: 14px; flex-wrap: wrap; }
+.social a { display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; border: 1px solid rgba(243, 236, 221, .28); color: var(--on-night); text-decoration: none; transition: color .2s, border-color .2s, background .2s, transform .25s var(--ease); }
+.social a:hover { color: var(--gold-bright); border-color: var(--gold-bright); background: rgba(216, 177, 102, .1); transform: translateY(-2px); }
+.social--lg { justify-content: center; margin-top: 14px; }
+.social--lg a { width: 52px; height: 52px; }
+.launch__follow { margin-top: 3rem; font: 600 .78rem var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--on-night-2); }
+.social--sm a { width: 40px; height: 40px; }
+@media (min-width: 900px) { .footer-grid { grid-template-columns: 1fr auto auto auto; } }
