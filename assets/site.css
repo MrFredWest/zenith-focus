@@ -306,3 +306,8 @@ html:not(.js) .story__stage { display: none !important; }
 .launch__follow { margin-top: 3rem; font: 600 .78rem var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--on-night-2); }
 .social--sm a { width: 40px; height: 40px; }
 @media (min-width: 900px) { .footer-grid { grid-template-columns: 1fr auto auto auto; } }
+
+.hero__cta { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 26px; }
+.social--inline { align-items: center; gap: 10px; padding-left: 26px; border-left: 1px solid rgba(243, 236, 221, .22); }
+.social--inline a { width: 42px; height: 42px; }
+@media (max-width: 520px) { .social--inline { padding-left: 0; border-left: 0; } }
